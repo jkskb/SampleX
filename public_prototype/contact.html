@@ -619,6 +619,9 @@
 			</div>
 		</div>
 
+		<!-- Load our React component. -->
+		<div id="registration_container"></div>
+
 		<div id="fh5co-contact">
 			<div class="container">
 				<div class="row">
@@ -764,6 +767,14 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
+
+	<!-- Load React. -->
+	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+	<!-- Load our React component. -->
+	<script src="./components/register.js"></script>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
