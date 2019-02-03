@@ -71,7 +71,8 @@ axios.all([
     axios.get("https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Chemicals/?N=5002385+8711017+8745514+3294857497&rt=r3"),
     axios.get("https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Communications/Adhesives-Tapes/?N=5002385+8709315+8710676+8711017+3294857497&rt=r3"),
     axios.get("https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Communications/Adhesives-Tapes/Fire-Safety/?N=5002385+8709315+8710676+8710770+8711017+3294857497&rt=r3"),
-    axios.get("https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Films/?N=5002385+8710654+8711017+3294857497&rt=r3")
+    axios.get("https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Films/?N=5002385+8710654+8711017+3294857497&rt=r3"),
+    
 
 
 

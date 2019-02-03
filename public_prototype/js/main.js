@@ -445,6 +445,19 @@ $(document).on('click', '.delete', function () {
 	$.post('/delete', id, function (data) {
 		console.log(data, "this is the data");
 		getSavedArticles()
+		
 	})
 })
+
+//Music buttons
+function playAudio() {
+    music.play();
+}
+
+function pauseAudio() {
+    music.pause();
+}
+//Music buttons
+
+
 
